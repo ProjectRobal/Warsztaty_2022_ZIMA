@@ -22,7 +22,7 @@ Piny GPIO26-29 mogę być użyte jako wejścia analogowe z rozdzielczością 12b
 1. Uruchom Arduino IDE i wejdź w Plik -> Preferencje.
 2. W Dodatkowe adresy URL do menadżera płytek wklej https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
 3. Naciśnij OK
-4. W Narzędzia->Płytka->Menedżer Płytek 
+4. Wejdź w Narzędzia->Płytka->Menedżer Płytek 
 5. W polu wyszukiwania wpisz "pico"
 6. Znajdź "Raspberry Pi Pico/RP2040" i wybierz "dodaj"
 7. SDK do biblioteki powinno się zainstalować
