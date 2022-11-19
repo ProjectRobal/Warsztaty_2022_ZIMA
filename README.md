@@ -1,6 +1,6 @@
-#Przykładowe kody dla warsztatów 2022
+# Przykładowe kody dla warsztatów 2022
 
-##Opis pinów dla RPI PICO
+## Opis pinów dla RPI PICO
 
 ![alt text](./pico_pins.webp)
 
@@ -17,28 +17,30 @@
 
 Piny GPIO26-29 mogę być użyte jako wejścia analogowe z rozdzielczością 12bit
 
-##Przykłady
+## Przykłady
 
-###LED_BLINK
+### LED_BLINK
 
 Proste miganie wbudowaną diodą.
 
-###LED_PWM
+### LED_PWM
 
 Sterowanie jasnością wbudowanej diody.
 
-###BUTTON_PRESS
+### BUTTON_PRESS
 
 Uruchamianie diody przy pomocy przycisku.
 
-###BUTTON_INTERUPT
+### BUTTON_INTERUPT
 
 Uruchamianie diody przy pomocy przycisku za pomocą przerwania.
 
-###SENSOR_READING
+### SENSOR_READING
 
 Test czyjników odległości TOF VL53L0X.
 
+Źródło:
+[RPI Pico pinout](https://peppe8o.com/raspberry-pi-pico-pinout/)
 
 
 
