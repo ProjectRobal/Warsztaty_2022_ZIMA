@@ -1,0 +1,470 @@
+
+
+
+
+
+
+
+Started logging.
+17:46:58.911943 Language server launched with arguments:
+17:46:58.911943   arg[0] = c:\Users\patry\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+17:46:58.911943   arg[1] = -clangd
+17:46:58.911943   arg[2] = c:\Users\patry\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+17:46:58.911943   arg[3] = -cli-daemon-addr
+17:46:58.911943   arg[4] = localhost:54172
+17:46:58.911943   arg[5] = -cli-daemon-instance
+17:46:58.911943   arg[6] = 1
+17:46:58.911943   arg[7] = -fqbn
+17:46:58.912485   arg[8] = rp2040:rp2040:rpipico
+17:46:58.912485   arg[9] = -skip-libraries-discovery-on-rebuild
+17:46:58.912485   arg[10] = -board-name
+17:46:58.912485   arg[11] = "Raspberry Pi Pico"
+17:46:58.912485   arg[12] = -no-real-time-diagnostics
+17:46:58.912485   arg[13] = -log
+17:46:58.912485   arg[14] = -logpath
+17:46:58.912485   arg[15] = c:\KoNaR\Warsztaty_2022_ZIMA\button_interupt
+17:46:58.912485 logging to c:\KoNaR\Warsztaty_2022_ZIMA\button_interupt\inols.log
+17:46:58.915010 [97mLS: : Initial board configuration: rp2040:rp2040:rpipico[0m
+17:46:58.915010 [97mLS: : Language server build path: C:\Users\patry\AppData\Local\Temp\arduino-language-server2514283856[0m
+17:46:58.915010 [97mLS: : Language server build sketch root: C:\Users\patry\AppData\Local\Temp\arduino-language-server2514283856\sketch[0m
+17:46:58.915010 [97mLS: : Language server FULL build path: C:\Users\patry\AppData\Local\Temp\arduino-language-server1663616098[0m
+17:46:58.915611 IN Elapsed: 0s
+17:46:58.916287 [92mIDE --> LS REQU initialize 0[0m
+17:46:58.916804 [92m                initialize 0: [93mwrite-locked[0m[0m
+17:46:58.917334 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+17:46:58.917872 [96mINIT --- : initializing workbench: file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt[0m
+17:46:58.917872 [96mINIT --- : [93mread-locked[0m[0m
+17:46:58.917872 [96mINIT --- : [93mread-unlocked[0m[0m
+17:46:58.918105 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.2"}}[0m
+17:46:58.918105 [32mIDE <-- LS RESP initialize 0[0m
+17:46:58.918105 OUT Elapsed: 0s
+17:46:58.922886 IN Elapsed: 4.781ms
+17:46:58.922886 [92mIDE --> LS NOTIF initialized[0m
+17:46:58.922886 [92m                 initialized: Notification is not propagated to clangd[0m
+17:46:58.922886 IN Elapsed: 0s
+17:46:58.922886 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+17:46:58.923436 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+17:46:58.923436 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+17:46:58.923436 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+17:46:59.224365 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "rp2040:rp2040:rpipico",
+  "sketch_path": "C:\\KoNaR\\Warsztaty_2022_ZIMA\\button_interupt",
+  "build_path": "C:\\Users\\patry\\AppData\\Local\\Temp\\arduino-language-server1663616098",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+17:47:05.087248 [96mINIT --- : Compile successful![0m
+17:47:05.119441 [96mINIT --- : Updated 'libraries.cache'. Copied: C:\Users\patry\AppData\Local\Temp\arduino-language-server1663616098\libraries.cache to C:\Users\patry\AppData\Local\Temp\arduino-language-server2514283856\libraries.cache[0m
+17:47:05.119441 [96mINIT --- : [93mread-locked[0m[0m
+17:47:05.119441 [96mINIT --- : [93mread-unlocked[0m[0m
+17:47:05.433729 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "rp2040:rp2040:rpipico",
+  "sketch_path": "C:\\KoNaR\\Warsztaty_2022_ZIMA\\button_interupt",
+  "build_path": "C:\\Users\\patry\\AppData\\Local\\Temp\\arduino-language-server2514283856",
+  "verbose": true,
+  "create_compilation_database_only": true,
+  "skip_libraries_discovery": true
+}[0m
+17:47:06.719874 [96mINIT --- : Compile successful![0m
+17:47:07.059369 [96mINIT --- : Arduino Data Dir -> c:\Users\patry\AppData\Local\Arduino15[0m
+17:47:07.061731 [96mINIT --- :     Starting clangd: c:\Users\patry\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe -log=verbose --compile-commands-dir=C:\Users\patry\AppData\Local\Temp\arduino-language-server2514283856 -query-driver=C:\Users\patry\AppData\Local\Arduino15\packages\**[0m
+17:47:07.436453 logging to c:\KoNaR\Warsztaty_2022_ZIMA\button_interupt\inols-clangd.log
+17:47:07.436970 logging to c:\KoNaR\Warsztaty_2022_ZIMA\button_interupt\inols-clangd-err.log
+17:47:07.436970 [91mIDE     LS --> Clangd REQU initialize 1[0m
+17:47:07.438112 OUT Elapsed: 1.1422ms
+17:47:07.661194 IN Elapsed: 223.0823ms
+17:47:07.661819 [31mIDE     LS <-- Clangd RESP initialize 1[0m
+17:47:07.661819 [96mINIT --- : clangd successfully started: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/","*"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"]},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",")","{","}","\u003c","\u003e",","]},"declarationProvider":{},"definitionProvider":{},"typeDefinitionProvider":{},"implementationProvider":{},"referencesProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentLinkProvider":{},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{"prepareProvider":true},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"selectionRangeProvider":{},"callHierarchyProvider":{},"semanticTokensProvider":{"legend":{"tokenTypes":["variable","variable","parameter","function","method","function","property","variable","class","interface","enum","enumMember","type","type","unknown","namespace","typeParameter","concept","type","macro","comment"],"tokenModifiers":["declaration","deprecated","deduced","readonly","static","abstract","virtual","dependentName","defaultLibrary","usedAsMutableReference","functionScope","classScope","fileScope","globalScope"]},"range":false,"full":{"delta":true}},"workspaceSymbolProvider":{}},"serverInfo":{"name":"clangd","version":"clangd version 14.0.0 windows x86_64-pc-windows-msvc"}}[0m
+17:47:07.661819 [91mIDE     LS --> Clangd NOTIF initialized[0m
+17:47:07.661819 OUT Elapsed: 0s
+17:47:07.661819 [96mINIT --- : Done initializing workbench[0m
+17:47:07.661819 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+17:47:07.662328 [92m                 textDocument/didOpen: URI: file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt/button_interupt.ino -> file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp[0m
+17:47:07.664012 [92m                 textDocument/didOpen: Increasing .ino tracked files count to 1[0m
+17:47:07.664578 [91mIDE     LS --> Clangd NOTIF textDocument/didOpen[0m
+17:47:07.664578 OUT Elapsed: 0s
+17:47:07.664578 [92m                 textDocument/didOpen: [93mwrite-unlocked[0m[0m
+17:47:07.664578 IN Elapsed: 0s
+17:47:07.664578 [92mIDE --> LS REQU textDocument/codeAction 1[0m
+17:47:07.665273 [92m                textDocument/codeAction 1: [93mread-locked[0m[0m
+17:47:07.665273 [92m                textDocument/codeAction 1: --> codeAction(file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt/button_interupt.ino:5:77)[0m
+17:47:07.665859 [92m                textDocument/codeAction 1: URI: file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt/button_interupt.ino -> file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp[0m
+17:47:07.666897 [92m                textDocument/codeAction 1:     --> codeAction(file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp:5:77)[0m
+17:47:07.667444 [91mIDE     LS --> Clangd REQU textDocument/codeAction 2[0m
+17:47:07.667444 OUT Elapsed: 0s
+17:47:07.670170 IN Elapsed: 8.462ms
+17:47:07.670170 [91mIDE     LS <-- Clangd NOTIF textDocument/publishDiagnostics[0m
+17:47:07.670754 [91m                            textDocument/publishDiagnostics: Ignored by configuration[0m
+17:47:07.675990 IN Elapsed: 5.3066ms
+17:47:07.675990 [91mIDE     LS <-- Clangd REQU window/workDoneProgress/create 0[0m
+17:47:07.675990 [31mIDE     LS --> Clangd RESP window/workDoneProgress/create 0[0m
+17:47:07.675990 OUT Elapsed: 0s
+17:47:07.675990 [92mIDE <-- LS REQU window/workDoneProgress/create 1[0m
+17:47:07.675990 OUT Elapsed: 0s
+17:47:07.676502 IN Elapsed: 511.7µs
+17:47:07.676502 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:07.676502 [91m                            $/progress: backgroundIndexProgress BEGIN indexing, 0.0%[0m
+17:47:07.676502 IN Elapsed: 0s
+17:47:07.676502 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:07.676502 [91m                            $/progress: backgroundIndexProgress REPORT, 0/1, 0.0%[0m
+17:47:07.895847 IN Elapsed: 219.345ms
+17:47:07.896556 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:07.896556 [91m                            $/progress: backgroundIndexProgress REPORT, 0/35, 0.0%[0m
+17:47:07.896556 IN Elapsed: 0s
+17:47:07.896556 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:07.896556 [91m                            $/progress: backgroundIndexProgress REPORT, 0/35, 0.0%[0m
+17:47:07.896556 IN Elapsed: 0s
+17:47:07.896556 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:07.896556 [91m                            $/progress: backgroundIndexProgress REPORT, 0/35, 0.0%[0m
+17:47:07.896556 IN Elapsed: 0s
+17:47:07.896556 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:07.896556 [91m                            $/progress: backgroundIndexProgress REPORT, 0/35, 0.0%[0m
+17:47:07.896556 IN Elapsed: 0s
+17:47:07.896556 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:07.896556 [91m                            $/progress: backgroundIndexProgress REPORT, 0/35, 0.0%[0m
+17:47:07.896556 IN Elapsed: 0s
+17:47:07.896556 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:07.896556 [91m                            $/progress: backgroundIndexProgress REPORT, 0/35, 0.0%[0m
+17:47:07.896556 IN Elapsed: 0s
+17:47:07.896556 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:07.896556 [91m                            $/progress: backgroundIndexProgress REPORT, 0/35, 0.0%[0m
+17:47:07.896556 IN Elapsed: 0s
+17:47:07.896556 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:07.896556 [91m                            $/progress: backgroundIndexProgress REPORT, 0/35, 0.0%[0m
+17:47:07.896556 IN Elapsed: 0s
+17:47:07.896556 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:07.897068 [91m                            $/progress: backgroundIndexProgress REPORT, 1/35, 2.0%[0m
+17:47:07.897068 IN Elapsed: 0s
+17:47:07.897068 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:07.897068 [91m                            $/progress: backgroundIndexProgress REPORT, 1/35, 2.0%[0m
+17:47:08.168659 IN Elapsed: 271.5907ms
+17:47:08.168659 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:08.168659 [91m                            $/progress: backgroundIndexProgress REPORT, 2/35, 5.0%[0m
+17:47:08.168659 IN Elapsed: 0s
+17:47:08.168659 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:08.168659 [91m                            $/progress: backgroundIndexProgress REPORT, 2/35, 5.0%[0m
+17:47:08.277205 IN Elapsed: 108.5465ms
+17:47:08.277205 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:08.277205 [91m                            $/progress: backgroundIndexProgress REPORT, 3/35, 8.0%[0m
+17:47:08.277205 IN Elapsed: 0s
+17:47:08.277205 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:08.277205 [91m                            $/progress: backgroundIndexProgress REPORT, 3/35, 8.0%[0m
+17:47:09.553865 IN Elapsed: 1.2766596s
+17:47:09.553865 [91mIDE     LS <-- Clangd NOTIF textDocument/publishDiagnostics[0m
+17:47:09.553865 IN Elapsed: 0s
+17:47:09.553865 [91m                            textDocument/publishDiagnostics: Ignored by configuration[0m
+17:47:09.553865 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 2[0m
+17:47:09.554863 [92m                textDocument/codeAction 1: [93mread-unlocked[0m[0m
+17:47:09.554863 [32mIDE <-- LS RESP textDocument/codeAction 1[0m
+17:47:09.554863 OUT Elapsed: 0s
+17:47:09.554863 IN Elapsed: 0s
+17:47:09.554863 [92mIDE --> LS REQU textDocument/documentSymbol 2[0m
+17:47:09.554863 [92m                textDocument/documentSymbol 2: [93mread-locked[0m[0m
+17:47:09.554863 [92m                textDocument/documentSymbol 2: URI: file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt/button_interupt.ino -> file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp[0m
+17:47:09.554863 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 3[0m
+17:47:09.554863 OUT Elapsed: 0s
+17:47:09.556861 IN Elapsed: 2.9956ms
+17:47:09.556861 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 3[0m
+17:47:09.557859 [92m                textDocument/documentSymbol 2: file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp (6 document symbols)[0m
+17:47:09.557859 [92m                textDocument/documentSymbol 2:   > convert SymbolKind:Function 21:0-21:22[0m
+17:47:09.558860 [92m                textDocument/documentSymbol 2: Range is in PREPROCESSED section of the sketch[0m
+17:47:09.558860 [92m                textDocument/documentSymbol 2: Range: file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp:21:0-21:22 -> file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt/button_interupt.ino:19:0-19:22 (.ino)[0m
+17:47:09.558860 [92m                textDocument/documentSymbol 2:     symbol is in the preprocessed section of the sketch.ino.cpp, skipping[0m
+17:47:09.558860 [92m                textDocument/documentSymbol 2:   > convert SymbolKind:Function 23:0-23:12[0m
+17:47:09.559858 [92m                textDocument/documentSymbol 2: Range is in PREPROCESSED section of the sketch[0m
+17:47:09.559858 [92m                textDocument/documentSymbol 2: Range: file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp:23:0-23:12 -> file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt/button_interupt.ino:25:0-25:12 (.ino)[0m
+17:47:09.559858 [92m                textDocument/documentSymbol 2:     symbol is in the preprocessed section of the sketch.ino.cpp, skipping[0m
+17:47:09.559858 [92m                textDocument/documentSymbol 2:   > convert SymbolKind:Function 25:0-25:11[0m
+17:47:09.560869 [92m                textDocument/documentSymbol 2: Range is in PREPROCESSED section of the sketch[0m
+17:47:09.560869 [92m                textDocument/documentSymbol 2: Range: file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp:25:0-25:11 -> file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt/button_interupt.ino:45:0-45:11 (.ino)[0m
+17:47:09.560869 [92m                textDocument/documentSymbol 2:     symbol is in the preprocessed section of the sketch.ino.cpp, skipping[0m
+17:47:09.560869 [92m                textDocument/documentSymbol 2:   > convert SymbolKind:Function 27:0-30:1[0m
+17:47:09.561860 [92m                textDocument/documentSymbol 2: Range: file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp:27:0-30:1 -> file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt/button_interupt.ino:19:0-22:1 (.ino)[0m
+17:47:09.562858 [92m                textDocument/documentSymbol 2: Range: file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp:27:5-27:20 -> file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt/button_interupt.ino:19:5-19:20 (.ino)[0m
+17:47:09.562858 [92m                textDocument/documentSymbol 2: file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp (0 document symbols)[0m
+17:47:09.562858 [92m                textDocument/documentSymbol 2:   > convert SymbolKind:Function 33:0-51:1[0m
+17:47:09.563860 [92m                textDocument/documentSymbol 2: Range: file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp:33:0-51:1 -> file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt/button_interupt.ino:25:0-43:1 (.ino)[0m
+17:47:09.564858 [92m                textDocument/documentSymbol 2: Range: file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp:33:5-33:10 -> file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt/button_interupt.ino:25:5-25:10 (.ino)[0m
+17:47:09.564858 [92m                textDocument/documentSymbol 2: file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp (0 document symbols)[0m
+17:47:09.564858 [92m                textDocument/documentSymbol 2:   > convert SymbolKind:Function 53:0-55:1[0m
+17:47:09.564858 [92m                textDocument/documentSymbol 2: Range: file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp:53:0-55:1 -> file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt/button_interupt.ino:45:0-47:1 (.ino)[0m
+17:47:09.565865 [92m                textDocument/documentSymbol 2: Range: file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp:53:5-53:9 -> file:///c%3A/KoNaR/Warsztaty_2022_ZIMA/button_interupt/button_interupt.ino:45:5-45:9 (.ino)[0m
+17:47:09.565865 [92m                textDocument/documentSymbol 2: file:///C:/Users/patry/AppData/Local/Temp/arduino-language-server2514283856/sketch/button_interupt.ino.cpp (0 document symbols)[0m
+17:47:09.566860 [92m                textDocument/documentSymbol 2: [93mread-unlocked[0m[0m
+17:47:09.566860 [32mIDE <-- LS RESP textDocument/documentSymbol 2[0m
+17:47:09.566860 OUT Elapsed: 0s
+17:47:09.566860 IN Elapsed: 0s
+17:47:09.566860 [32mIDE --> LS RESP window/workDoneProgress/create 1[0m
+17:47:09.566860 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:09.566860 OUT Elapsed: 0s
+17:47:09.566860 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:09.566860 OUT Elapsed: 0s
+17:47:10.216707 IN Elapsed: 659.8465ms
+17:47:10.216707 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:10.216707 [91m                            $/progress: backgroundIndexProgress REPORT, 4/35, 11.0%[0m
+17:47:10.216707 IN Elapsed: 0s
+17:47:10.216707 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:10.216707 [91m                            $/progress: backgroundIndexProgress REPORT, 4/35, 11.0%[0m
+17:47:10.216707 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:10.216707 OUT Elapsed: 0s
+17:47:10.400972 IN Elapsed: 184.2646ms
+17:47:10.400972 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:10.400972 [91m                            $/progress: backgroundIndexProgress REPORT, 5/35, 14.0%[0m
+17:47:10.400972 IN Elapsed: 0s
+17:47:10.400972 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:10.400972 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:10.400972 [91m                            $/progress: backgroundIndexProgress REPORT, 5/35, 14.0%[0m
+17:47:10.400972 OUT Elapsed: 0s
+17:47:10.400972 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:10.400972 OUT Elapsed: 0s
+17:47:10.448190 IN Elapsed: 47.2179ms
+17:47:10.448190 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:10.448190 [91m                            $/progress: backgroundIndexProgress REPORT, 6/35, 17.0%[0m
+17:47:10.448190 IN Elapsed: 0s
+17:47:10.448190 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:10.448190 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:10.448190 [91m                            $/progress: backgroundIndexProgress REPORT, 6/35, 17.0%[0m
+17:47:10.448190 OUT Elapsed: 0s
+17:47:10.448190 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:10.448190 OUT Elapsed: 0s
+17:47:10.588057 IN Elapsed: 139.867ms
+17:47:10.588057 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:10.588057 [91m                            $/progress: backgroundIndexProgress REPORT, 7/35, 20.0%[0m
+17:47:10.588057 IN Elapsed: 0s
+17:47:10.588057 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:10.588057 [91m                            $/progress: backgroundIndexProgress REPORT, 7/35, 20.0%[0m
+17:47:10.588057 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:10.588057 OUT Elapsed: 0s
+17:47:10.690968 IN Elapsed: 102.9114ms
+17:47:10.690968 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:10.690968 [91m                            $/progress: backgroundIndexProgress REPORT, 8/35, 22.0%[0m
+17:47:10.690968 IN Elapsed: 0s
+17:47:10.690968 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:10.690968 [91m                            $/progress: backgroundIndexProgress REPORT, 8/35, 22.0%[0m
+17:47:10.690968 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:10.690968 OUT Elapsed: 0s
+17:47:11.165407 IN Elapsed: 474.439ms
+17:47:11.165407 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:11.165407 [91m                            $/progress: backgroundIndexProgress REPORT, 9/35, 25.0%[0m
+17:47:11.165407 IN Elapsed: 0s
+17:47:11.165407 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:11.165407 [91m                            $/progress: backgroundIndexProgress REPORT, 9/35, 25.0%[0m
+17:47:11.165407 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:11.166405 OUT Elapsed: 0s
+17:47:15.805542 IN Elapsed: 4.6401349s
+17:47:15.805542 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:15.805542 [91m                            $/progress: backgroundIndexProgress REPORT, 10/35, 28.0%[0m
+17:47:15.805542 IN Elapsed: 0s
+17:47:15.805542 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:15.805542 [91m                            $/progress: backgroundIndexProgress REPORT, 10/35, 28.0%[0m
+17:47:15.805542 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:15.805542 OUT Elapsed: 0s
+17:47:15.815535 IN Elapsed: 9.9934ms
+17:47:15.815535 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:15.815535 [91m                            $/progress: backgroundIndexProgress REPORT, 11/35, 31.0%[0m
+17:47:15.815535 IN Elapsed: 0s
+17:47:15.815535 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:15.815535 [91m                            $/progress: backgroundIndexProgress REPORT, 11/35, 31.0%[0m
+17:47:15.815535 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:15.816081 OUT Elapsed: 546.1µs
+17:47:16.137567 IN Elapsed: 322.0315ms
+17:47:16.138076 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:16.138076 [91m                            $/progress: backgroundIndexProgress REPORT, 12/35, 34.0%[0m
+17:47:16.138076 IN Elapsed: 0s
+17:47:16.138076 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:16.138076 [91m                            $/progress: backgroundIndexProgress REPORT, 12/35, 34.0%[0m
+17:47:16.138076 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:16.138076 OUT Elapsed: 0s
+17:47:16.138076 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:16.138076 OUT Elapsed: 0s
+17:47:16.839396 IN Elapsed: 701.3203ms
+17:47:16.839396 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:16.839396 [91m                            $/progress: backgroundIndexProgress REPORT, 13/35, 37.0%[0m
+17:47:16.839396 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:16.839396 IN Elapsed: 0s
+17:47:16.839396 OUT Elapsed: 0s
+17:47:16.839396 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:16.839396 [91m                            $/progress: backgroundIndexProgress REPORT, 13/35, 37.0%[0m
+17:47:16.839396 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:16.839396 OUT Elapsed: 0s
+17:47:16.877508 IN Elapsed: 38.1115ms
+17:47:16.877508 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:16.877508 [91m                            $/progress: backgroundIndexProgress REPORT, 14/35, 40.0%[0m
+17:47:16.877508 IN Elapsed: 0s
+17:47:16.877508 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:16.877508 [91m                            $/progress: backgroundIndexProgress REPORT, 14/35, 40.0%[0m
+17:47:16.877508 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:16.877508 OUT Elapsed: 0s
+17:47:16.877508 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:16.877508 OUT Elapsed: 0s
+17:47:16.922637 IN Elapsed: 45.1293ms
+17:47:16.922637 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:16.922637 [91m                            $/progress: backgroundIndexProgress REPORT, 15/35, 42.0%[0m
+17:47:16.922637 IN Elapsed: 0s
+17:47:16.922637 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:16.922637 [91m                            $/progress: backgroundIndexProgress REPORT, 15/35, 42.0%[0m
+17:47:16.922637 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:16.922637 OUT Elapsed: 0s
+17:47:16.922637 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:16.922637 OUT Elapsed: 0s
+17:47:17.255441 IN Elapsed: 332.8041ms
+17:47:17.255441 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.255441 [91m                            $/progress: backgroundIndexProgress REPORT, 16/35, 45.0%[0m
+17:47:17.255441 IN Elapsed: 0s
+17:47:17.255441 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.255441 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:17.255441 OUT Elapsed: 0s
+17:47:17.255441 [91m                            $/progress: backgroundIndexProgress REPORT, 16/35, 45.0%[0m
+17:47:17.255441 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:17.255441 OUT Elapsed: 0s
+17:47:17.427620 IN Elapsed: 172.1785ms
+17:47:17.427620 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.427620 [91m                            $/progress: backgroundIndexProgress REPORT, 17/35, 48.0%[0m
+17:47:17.427620 IN Elapsed: 0s
+17:47:17.427620 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.427620 [91m                            $/progress: backgroundIndexProgress REPORT, 17/35, 48.0%[0m
+17:47:17.427620 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:17.427620 OUT Elapsed: 0s
+17:47:17.494002 IN Elapsed: 66.3823ms
+17:47:17.494002 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.494002 [91m                            $/progress: backgroundIndexProgress REPORT, 18/35, 51.0%[0m
+17:47:17.494002 IN Elapsed: 0s
+17:47:17.494002 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.494002 [91m                            $/progress: backgroundIndexProgress REPORT, 18/35, 51.0%[0m
+17:47:17.494002 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:17.494002 OUT Elapsed: 0s
+17:47:17.510305 IN Elapsed: 16.303ms
+17:47:17.510305 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.510305 [91m                            $/progress: backgroundIndexProgress REPORT, 19/35, 54.0%[0m
+17:47:17.510305 IN Elapsed: 0s
+17:47:17.510305 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.510305 [91m                            $/progress: backgroundIndexProgress REPORT, 19/35, 54.0%[0m
+17:47:17.510305 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:17.510305 OUT Elapsed: 0s
+17:47:17.566029 IN Elapsed: 55.7244ms
+17:47:17.566029 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.566029 [91m                            $/progress: backgroundIndexProgress REPORT, 20/35, 57.0%[0m
+17:47:17.566029 IN Elapsed: 0s
+17:47:17.566029 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.566029 [91m                            $/progress: backgroundIndexProgress REPORT, 20/35, 57.0%[0m
+17:47:17.566029 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:17.566029 OUT Elapsed: 0s
+17:47:17.690168 IN Elapsed: 124.1384ms
+17:47:17.690168 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.690168 [91m                            $/progress: backgroundIndexProgress REPORT, 21/35, 60.0%[0m
+17:47:17.690168 IN Elapsed: 0s
+17:47:17.690168 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.690168 [91m                            $/progress: backgroundIndexProgress REPORT, 21/35, 60.0%[0m
+17:47:17.690168 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:17.690168 OUT Elapsed: 0s
+17:47:17.809923 IN Elapsed: 119.7554ms
+17:47:17.809923 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.809923 [91m                            $/progress: backgroundIndexProgress REPORT, 22/35, 62.0%[0m
+17:47:17.809923 IN Elapsed: 0s
+17:47:17.809923 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.809923 [91m                            $/progress: backgroundIndexProgress REPORT, 22/35, 62.0%[0m
+17:47:17.809923 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:17.809923 OUT Elapsed: 0s
+17:47:17.834784 IN Elapsed: 24.8609ms
+17:47:17.834784 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.834784 [91m                            $/progress: backgroundIndexProgress REPORT, 23/35, 65.0%[0m
+17:47:17.834784 IN Elapsed: 0s
+17:47:17.834784 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.835783 [91m                            $/progress: backgroundIndexProgress REPORT, 23/35, 65.0%[0m
+17:47:17.835783 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:17.835783 OUT Elapsed: 0s
+17:47:17.835783 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:17.835783 OUT Elapsed: 0s
+17:47:17.902520 IN Elapsed: 66.737ms
+17:47:17.902520 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.902520 [91m                            $/progress: backgroundIndexProgress REPORT, 24/35, 68.0%[0m
+17:47:17.902520 IN Elapsed: 0s
+17:47:17.902520 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:17.902520 [91m                            $/progress: backgroundIndexProgress REPORT, 24/35, 68.0%[0m
+17:47:17.903039 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:17.903039 OUT Elapsed: 0s
+17:47:19.037722 IN Elapsed: 1.1352022s
+17:47:19.037722 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:19.037722 [91m                            $/progress: backgroundIndexProgress REPORT, 25/35, 71.0%[0m
+17:47:19.037722 IN Elapsed: 0s
+17:47:19.037722 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:19.037722 [91m                            $/progress: backgroundIndexProgress REPORT, 25/35, 71.0%[0m
+17:47:19.037722 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:19.037722 OUT Elapsed: 0s
+17:47:19.037722 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:19.037722 OUT Elapsed: 0s
+17:47:19.391224 IN Elapsed: 353.5019ms
+17:47:19.391224 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:19.391224 [91m                            $/progress: backgroundIndexProgress REPORT, 26/35, 74.0%[0m
+17:47:19.391224 IN Elapsed: 0s
+17:47:19.391224 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:19.391224 [91m                            $/progress: backgroundIndexProgress REPORT, 26/35, 74.0%[0m
+17:47:19.391224 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:19.391224 OUT Elapsed: 0s
+17:47:19.645910 IN Elapsed: 254.6854ms
+17:47:19.645910 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:19.645910 [91m                            $/progress: backgroundIndexProgress REPORT, 27/35, 77.0%[0m
+17:47:19.645910 IN Elapsed: 0s
+17:47:19.645910 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:19.645910 [91m                            $/progress: backgroundIndexProgress REPORT, 27/35, 77.0%[0m
+17:47:19.645910 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:19.645910 OUT Elapsed: 0s
+17:47:19.680317 IN Elapsed: 34.4079ms
+17:47:19.680317 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:19.680317 [91m                            $/progress: backgroundIndexProgress REPORT, 28/35, 80.0%[0m
+17:47:19.680317 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:19.680317 OUT Elapsed: 0s
+17:47:19.764450 IN Elapsed: 84.1322ms
+17:47:19.764450 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:19.764450 [91m                            $/progress: backgroundIndexProgress REPORT, 29/35, 82.0%[0m
+17:47:19.764450 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:19.764450 OUT Elapsed: 0s
+17:47:19.804210 IN Elapsed: 39.76ms
+17:47:19.804210 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:19.804210 [91m                            $/progress: backgroundIndexProgress REPORT, 30/35, 85.0%[0m
+17:47:19.804210 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:19.804210 OUT Elapsed: 0s
+17:47:20.299413 IN Elapsed: 495.2034ms
+17:47:20.299413 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:20.299413 [91m                            $/progress: backgroundIndexProgress REPORT, 31/35, 88.0%[0m
+17:47:20.299413 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:20.299413 OUT Elapsed: 0s
+17:47:20.710097 IN Elapsed: 410.6839ms
+17:47:20.710097 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:20.710097 [91m                            $/progress: backgroundIndexProgress REPORT, 32/35, 91.0%[0m
+17:47:20.710097 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:20.710097 OUT Elapsed: 0s
+17:47:20.740829 IN Elapsed: 30.7322ms
+17:47:20.740829 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:20.740829 [91m                            $/progress: backgroundIndexProgress REPORT, 33/35, 94.0%[0m
+17:47:20.740829 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:20.740829 OUT Elapsed: 0s
+17:47:21.059756 IN Elapsed: 318.9272ms
+17:47:21.059756 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:21.059756 [91m                            $/progress: backgroundIndexProgress REPORT, 34/35, 97.0%[0m
+17:47:21.059756 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:21.059756 OUT Elapsed: 0s
+17:47:21.326543 IN Elapsed: 266.7863ms
+17:47:21.326543 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+17:47:21.326543 [91m                            $/progress: backgroundIndexProgress END [0m
+17:47:21.326543 [92mIDE <-- LS NOTIF $/progress[0m
+17:47:21.326543 OUT Elapsed: 0s
+17:48:24.289018 IN Elapsed: 1m14.7221583s
+17:48:24.289018 [92mIDE --> LS REQU shutdown 3[0m
+17:48:24.289018 [91mIDE     LS --> Clangd REQU shutdown 4[0m
+17:48:24.290022 OUT Elapsed: 1.0036ms
+17:48:24.291117 IN Elapsed: 1m2.9645741s
+17:48:24.292105 [31mIDE     LS <-- Clangd RESP shutdown 4[0m
+17:48:24.292631 [32mIDE <-- LS RESP shutdown 3[0m
+17:48:24.292631 OUT Elapsed: 0s
+17:48:24.294889 IN Elapsed: 2.2579ms
+17:48:24.295406 [92mIDE --> LS NOTIF exit[0m
+17:48:24.295406 [91mIDE     LS --> Clangd NOTIF exit[0m
+17:48:24.309429 OUT Elapsed: 3.0002ms
+17:48:24.309429 [92m                 exit: Arduino Language Server is shutting down.[0m

@@ -50,6 +50,22 @@ Uruchamianie diody przy pomocy przycisku za pomocą przerwania.
 
 Test czyjników odległości TOF VL53L0X.
 
+### CHANGE_ADDRESS
+
+Zmianna adresu czujnika odległości TOF VL53L0X, przydatne dla ludzi z większą ilością czujników
+
+### ANALOG_READ
+
+Odczyt danych analogowych 
+
+### ROUND_ROBIN_DYNAMIC
+
+Sekwecyjny odczyt z wejść analogowych oraz przykład zastosowania pamięc dynamicznej.
+
+### ROUND_ROBIN
+
+Sekwecyjny odczyt z wejść analogowych przy pomocy statycznej tablicy.
+
 Źródło:
 [RPI Pico pinout](https://peppe8o.com/raspberry-pi-pico-pinout/)
 
