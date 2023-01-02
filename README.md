@@ -30,6 +30,14 @@ Piny GPIO26-29 mogę być użyte jako wejścia analogowe z rozdzielczością 12b
 
 ## Przykłady
 
+### HELLO WORLD
+
+Program typu hello world
+
+### ZMIENNE
+
+Program który przestawia podstawowe zmienne, oraz funkcję switch
+
 ### LED_BLINK
 
 Proste miganie wbudowaną diodą.
