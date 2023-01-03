@@ -1,5 +1,6 @@
 //zawiera maksymalne wartości zmiennych
 #include <climits>
+#include <cfloat>
 
 void setup() {
   // put your setup code here, to run once:
@@ -12,7 +13,7 @@ void setup() {
 // 1
 void zmienne_liczbowe()
 {
-  Serial.println("Zmienne liczbowe: ");
+  Serial.println("Zmienne liczbowe całkowite: ");
   Serial.print("byte rozmiar: ");
   Serial.println(sizeof(byte));
   Serial.print("Maksymalna wartość: ");
@@ -48,7 +49,27 @@ void zmienne_liczbowe()
   Serial.print("Minimalna wartość: ");
   Serial.println(LLONG_MIN);
 
-  
+
+  Serial.println("Zmienne zmienoprzecinkowe: ");
+  Serial.print("float rozmiar: ");
+  Serial.println(sizeof(float));
+  Serial.print("Maksymalna potęga 10: ");
+  Serial.println(FLT_MAX_10_EXP);
+  Serial.print("Minimalna potęga 10: ");
+  Serial.println(FLT_MIN_10_EXP);
+  Serial.print("double rozmiar: ");
+  Serial.println(sizeof(double));
+  Serial.print("Maksymalna potęga 10: ");
+  Serial.println(DBL_MAX_10_EXP);
+  Serial.print("Minimalna potęga 10: ");
+  Serial.println(DBL_MIN_10_EXP);
+  Serial.print("long double rozmiar:");
+  Serial.println(sizeof(long double));
+  Serial.print("Maksymalna wartość: ");
+  Serial.println(LDBL_MAX_10_EXP);
+  Serial.print("Minimalna wartość: ");
+  Serial.println(LDBL_MIN_10_EXP);
+   
 }
 
 // 2
@@ -132,12 +153,26 @@ void zmienna_logiczna()
 // h
 void help()
 {
-  Serial.print("Wpisz liczbę: ");
+  Serial.println("Wpisz liczbę: ");
 
   for(uint8_t i=1;i<=4;++i)
   {
   Serial.println(i);
   }
+
+  /*
+  while(10>1)
+  {
+    Serial.println("Wykonuje się cały czas!");
+  }
+  */
+
+ 
+ do
+ {
+  Serial.println("Będę działać wiecznie");
+ }while(1==0);
+ 
 }
 
 void loop() {
@@ -146,8 +181,13 @@ void loop() {
   // Jeżeli nie ma nic do odczytania, przerwij wykonywanie funkcji.
   if(!Serial.available())
   {
+    // Serial.println("Nic tu nie ma!");
     return;
   }
+  /*else
+  {
+    Serial.println("Mam coś!");
+  }*/
 
   // odczyt jednego bajtu
   switch(Serial.read())

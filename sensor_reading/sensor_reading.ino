@@ -95,7 +95,8 @@ void setup() {
   // ustawienie limitu prędkości sygnału, im mniejsza wartość tym potencjalnie większy zasięg czujnika , ale może zmniejszyć jego dokładaność, standardowa wartość to 0.25
   right.setSignalRateLimit(0.1);
 
-  // ustawienie okresu impulsu laser (normalnie 14 i 10 PCLKs), funkcje przyjmują wartość parzyste, im większe wartość tym większy zasięg
+  // ustawienie okresu impulsu lasera
+   (normalnie 14 i 10 PCLKs), funkcje przyjmują wartość parzyste, im większe wartość tym większy zasięg
   // od 12 do 18
   right.setVcselPulsePeriod(VL53L0X::VcselPeriodPreRange, 18);
   // od 8 do 14

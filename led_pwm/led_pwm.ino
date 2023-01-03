@@ -46,7 +46,7 @@ void loop() {
 
   // cykliczna zmianna jasność świecenia diodą 
 
-  //Jeżeli osiągnie 65 wróci z powrotem do zera
+  //Jeżeli osiągnie 100 wróci z powrotem do zera
   if(pwm==100)
   {
     pwm=0;
