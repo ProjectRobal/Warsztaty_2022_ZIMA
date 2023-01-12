@@ -7,7 +7,7 @@ void setup() {
 
   // ważne!!
   Serial.begin();
-
+  
 }
 
 // 1
@@ -49,7 +49,7 @@ void zmienne_liczbowe()
   Serial.print("Minimalna wartość: ");
   Serial.println(LLONG_MIN);
 
-
+  
   Serial.println("Zmienne zmienoprzecinkowe: ");
   Serial.print("float rozmiar: ");
   Serial.println(sizeof(float));
@@ -69,7 +69,6 @@ void zmienne_liczbowe()
   Serial.println(LDBL_MAX_10_EXP);
   Serial.print("Minimalna wartość: ");
   Serial.println(LDBL_MIN_10_EXP);
-   
 }
 
 // 2
@@ -115,8 +114,7 @@ void zmienne_tekstowe()
   // to jest lepsze
     const char c_text[]="Hello world!";
     Serial.println(c_text);
-
-
+    
   // kopiowanie łańcucha znaków
   // więcje przydatnych funkcji:
   // https://cplusplus.com/reference/cstring/
@@ -188,7 +186,7 @@ void loop() {
   {
     Serial.println("Mam coś!");
   }*/
-
+  
   // odczyt jednego bajtu
   switch(Serial.read())
   {

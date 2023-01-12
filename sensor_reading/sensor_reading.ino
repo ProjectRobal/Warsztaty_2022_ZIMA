@@ -41,6 +41,8 @@ VL53L0X left;
 //prawy czujnik
 VL53L0X right;
 
+uint32_t start=0;
+
 void setup() {
 
   //inicjacja wyjścia szeregowego, (logowanie danych w terminalu)
@@ -106,7 +108,7 @@ void setup() {
   right.setMeasurementTimingBudget(20000);
 
   */
-
+  start=millis();
 }
 
 void loop() {

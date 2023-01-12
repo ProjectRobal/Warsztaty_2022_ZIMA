@@ -8,6 +8,7 @@ void setup() {
   // put your setup code here, to run once:
 
   Serial.begin();
+
 }
 
 int counter=0;
@@ -19,9 +20,10 @@ void loop() {
   ++counter;
 
   //wypisuje tekst
-  Serial.print("Hello world: ");
+  Serial.print("Kocham PWR: ");
   //wypisuje tekst zaczynając nową linię
   Serial.println(counter);
   //czekaj 500 ms
   delay(500);
+   
 }

@@ -19,6 +19,7 @@ Piny GPIO26-29 mogę być użyte jako wejścia analogowe z rozdzielczością 12b
 
 ## Instalacja dla Arduino IDE
 
+0. Pobierz Arduino IDE ze strony https://www.arduino.cc/en/software
 1. Uruchom Arduino IDE i wejdź w Plik -> Preferencje.
 2. W Dodatkowe adresy URL do menadżera płytek wklej https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
 3. Naciśnij OK
@@ -27,6 +28,22 @@ Piny GPIO26-29 mogę być użyte jako wejścia analogowe z rozdzielczością 12b
 6. Znajdź "Raspberry Pi Pico/RP2040" i wybierz "dodaj"
 7. SDK do biblioteki powinno się zainstalować
 8. Have fun
+
+## Instalacja biblioteki do czujników
+
+1. W Arduino IDE wchodzimy do Narzędzia->Płytka->Zarządzaj bibliotekami
+2. Wpisujemy w wyszukiwarce pololu vl53L0X
+3. Wybieramy VL53L0X przez Polou i klikamy zainstaluje
+4. Po chwili biblioteka powinna już być zainstalowana
+
+## Wgrywanie programu do RPI Pico
+
+1. Przy pierwszym wgrywaniu należy odłączyć Raspberry Pi Pico od zasilania
+2. Przytrzymaj przycisk BOOTSEL podłączając Pico do zasilania
+3. Windows powinien wykryć nowy dysk
+4. W Arduino IDE w Narzędzia -> Port wybieramy UF2 (czyli jedyny port inny od COM-a)
+5. Naciskamy Wgraj/Upload
+6. O ile was program działa poprawnie, od tej pory wystarczy wybrać port COM i nacisnąć Wgraj/Upload przy wgrywaniu.
 
 ## Przykłady
 
