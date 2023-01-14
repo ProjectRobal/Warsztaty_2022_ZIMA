@@ -69,14 +69,14 @@ void setup() {
   right.setTimeout(500);
 
   //Czekaj na inicjalizację czujnika
-  while(!left.init(false))
+  while(!left.init())
   {
     Serial.println("Cannot init left sensor");
     delay(1000);
   }
 
   //Czekaj na inicjalizację czujnika
-  while(!right.init(false))
+  while(!right.init())
   {
     Serial.println("Cannot init right sensor");
     delay(1000);
@@ -114,6 +114,13 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
+  if(millis()-start<500)
+  {
+    return;
+  }
+
+  start=millis();
+
   Serial.print("Left: ");
   Serial.print(left.readRangeContinuousMillimeters());
   Serial.println(" mm");
@@ -128,6 +135,6 @@ void loop() {
   }
 
   //Czekaj 500 ms
-  delay(500);
+  //delay(500);
 
 }

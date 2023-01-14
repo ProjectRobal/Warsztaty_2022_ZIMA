@@ -165,7 +165,6 @@ void help()
   }
   */
 
- 
  do
  {
   Serial.println("Będę działać wiecznie");

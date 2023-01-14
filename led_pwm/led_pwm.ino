@@ -37,7 +37,7 @@ void setup() {
   analogWrite(LED,0);
 
   //Czekaj 5000 ms 
-  delay(5000);
+  delay(3000);
 
 }
 

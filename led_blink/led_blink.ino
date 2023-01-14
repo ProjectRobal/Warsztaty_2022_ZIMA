@@ -14,7 +14,7 @@ void setup() {
   // put your setup code here, to run once:
 
   // ustawienie pinu LED jako wyjście
-  pinMode(LED,INPUT);
+  pinMode(LED,OUTPUT);
 
   //ustawienie pinu LED w stan wysoki (równoważne z zapaleniem diody)
   digitalWrite(LED,HIGH);
