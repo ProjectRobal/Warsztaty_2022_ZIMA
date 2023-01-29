@@ -18,14 +18,11 @@ Funkcja analogWrite może się przydać przy sterowaniu silników.
 
 */
 
-//opcjonalne na Arduino IDE
-#include <Arduino.h>
-
 // wbudowana w pico dioda LED na pinie 25
 #define LED 25
 
 
-volatile uint16_t pwm=0;
+unsigned short pwm=0;
 
 void setup() {
   // put your setup code here, to run once:
@@ -33,10 +30,16 @@ void setup() {
   // ustawienie pinu LED jako wyjście
   pinMode(LED,OUTPUT);
 
+  //ustawienie częstotliwości PWM ( 50 Hz )
+  analogWriteFreq(50);
+
+  //ustawienie rozdzielczości na 16bit
+  analogWriteResolution(16);
+
   //wypełnienie sygnału na 0%
   analogWrite(LED,0);
 
-  //Czekaj 5000 ms 
+  //Czekaj 3000 ms 
   delay(3000);
 
 }
@@ -54,10 +57,8 @@ void loop() {
 
   // Zmień wartość wypełnienia 
   analogWrite(LED,pwm*100);
-
   //Zwiększ o jeden ( szybsze od pwm++ )
   ++pwm;
-
   //czekaj 2500 ms
   delay(2500);
 }

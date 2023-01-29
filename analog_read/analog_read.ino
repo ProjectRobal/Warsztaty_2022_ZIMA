@@ -3,8 +3,6 @@
 A także przykład zastosowania enum.
 */
 
-#include <Arduino.h>
-
 // analog pins
 #define A1 28
 #define A2 27
@@ -52,7 +50,7 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin();
 
-  //ustawienie pinów analogowych jako wyjście
+  //ustawienie pinów analogowych jako wejście
   pinMode(A1,INPUT);
   pinMode(A2,INPUT);
   pinMode(A3,INPUT);

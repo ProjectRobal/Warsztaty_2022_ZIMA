@@ -4,9 +4,6 @@
  Funkcja pinMode oraz digitalWrite może się przydać przy sterowaniu silników.
 */
 
-//opcjonalne na Arduino IDE
-#include <Arduino.h>
-
 // wbudowana w pico dioda LED na pinie 25
 #define LED 25
 

@@ -1,4 +1,5 @@
 //zawiera maksymalne wartości zmiennych
+
 #include <climits>
 #include <cfloat>
 
@@ -81,7 +82,7 @@ void alt_zmienne_liczbowe()
   Serial.println(INT8_MAX);
   Serial.print("Minimalna wartość: ");
   Serial.println(INT8_MIN);
-
+  
   Serial.print("int16_t rozmiar: ");
   Serial.println(sizeof(int16_t));
   Serial.print("Maksymalna wartość: ");
@@ -101,8 +102,7 @@ void alt_zmienne_liczbowe()
   Serial.print("Maksymalna wartość: ");
   Serial.println(INT64_MAX);
   Serial.print("Minimalna wartość: ");
-  Serial.println(INT64_MIN);
-
+  Serial.println(INT64_MIN);  
 }
 
 // 3
@@ -114,7 +114,6 @@ void zmienne_tekstowe()
   // to jest lepsze
     const char c_text[]="Hello world!";
     Serial.println(c_text);
-    
   // kopiowanie łańcucha znaków
   // więcje przydatnych funkcji:
   // https://cplusplus.com/reference/cstring/
@@ -126,7 +125,7 @@ void zmienne_tekstowe()
 
   // kopiowanie łańcucha znaków
     char *dyn_copy=new char[32];
-
+    
     strcpy(dyn_copy,c_text);
 
     Serial.println(dyn_copy);
@@ -144,7 +143,7 @@ bool sprawdzenie(int x)
 void zmienna_logiczna()
 {
   bool warunek=sprawdzenie(4);
-
+  
   Serial.println(warunek);
 }
 

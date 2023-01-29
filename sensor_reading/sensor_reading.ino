@@ -18,8 +18,6 @@
   https://github.com/pololu/vl53l0x-arduino
 */
 
-//opcjonalne na Arduino IDE
-#include <Arduino.h>
 
 //biblioteka od I2C
 #include <Wire.h>
@@ -131,7 +129,7 @@ void loop() {
   // dystans mniejszy lub równy 50 mm
   if(distance<=50)
   {
-    Serial.println("Odsuni się zasłaniasz mi widok!!");
+    Serial.println("Rusz dupę!");
   }
 
   //Czekaj 500 ms
