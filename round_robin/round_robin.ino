@@ -40,6 +40,8 @@ void setup() {
     pinMode(a,INPUT);
   }
 
+  analogReadResolution(12);
+
 }
 
 void loop() {

@@ -50,6 +50,8 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin();
 
+  analogReadResolution(12);
+
   //ustawienie pinów analogowych jako wejście
   pinMode(A1,INPUT);
   pinMode(A2,INPUT);

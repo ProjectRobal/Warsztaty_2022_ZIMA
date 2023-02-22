@@ -44,7 +44,7 @@ void setup() {
     pinMode(a,INPUT);
   }
 
-  
+  analogReadResolution(12);
 
 }
 
